@@ -1,0 +1,13 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+Welcome @Model.Name ,Your salary is @Model.Salary
+<br />
+<a asp-action="AllEmployees"
+ asp-controller="Employees"
+ class="btn btn-warning btn-sm">
+
+ Back to list</a>
